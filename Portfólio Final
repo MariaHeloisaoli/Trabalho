@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <<header class="container text-center">
+            <img src="imagem1.jpg" alt="avatar da Maria Heloisa" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Eu sou a Maria Heloisa</p>
+        <h1>Estudante | Buscando aprender </h1>
+        <p>Sou estudante do 3º ano do Ensino Médio e estou realizando um curso de Informática e outro de Novas Tecnologias, voltado para a elétrica e energias renováveis. Na escola, tenho aula de Programação, onde estou aprendendo a programar por meio de projetos.
+        </p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Dedicação</p>
+            <p class="badge bg-secondary">Honestidade</p>
+            <p class="badge bg-secondary">Trabalho em equipe</p>
+            <p class="badge bg-secondary">Empatia</p>
+        </div>
+    </header>
+    <main class="container">
+            <h2>Meus projetos</h2>
+            <div class="row">
+            
+         <!-- Projeto 1 -->
+                    <div class="col-md-4">
+                        <div class="card">
+<img src="Jogo de corrida.jpg"class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                            <div class="card-body">
+                                <h5 class="card-title">Lista de funções e repetição: criando um Jogo de Corrida</h5>
+                                <p class="card-text">Este é um jogo de corrida, onde para ganhar é necessário chegar na linha de chegada primeiro.
+                                </p>
+                                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Projeto 2 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Monalisa.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                            <div class="card-body">
+                                <h5 class="card-title">Lógica de programação criando arte interativa com P5.js "Monalisa" </h5>
+                                <p class="card-text">Este projeto tem o objetivo de criar um efeito de olhos que seguem o movimento do mouse.                     </p>
+                                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projeto 3 -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Quente e frio.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                            <div class="card-body">
+                                <h5 class="card-title">Lógica de programação: criando arte interativa com P5.js "Quente frio dinâmico"</h5>
+                                <p class="card-text">Este projeto busca encontrar o ponto oculto na tela seguindo as indicações se está perto ou frio.
+                                </p>
+                                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Modal 1 -->
+            <div class="modal" id="modal1" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Lista de funções e repetição: criando um jogo de corrida</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>O projeto é um jogo criado com o objetivo de quem chegar primeiro na linha de chegada vence.</p>
+                        </p> Por meio das teclas A e S, é possível mover as figuras.</p>
+                            <p></p>
+                            <img src="Jogo de corrida.jpg" class="img-fluid w-100"
+                                alt="Imagem representativa do projeto de uma biblioteca online">
+                        </div>
+                        <div class="modal-footer">
+                            <a href=https://editor.p5js.org/MariaHeloisaa/sketches/O0ZgeAHfM>Ver projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Modal 2 -->
+            <div class="modal" id="modal2" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Lógica de programação criando arte interativa com P5.js "Monalisa"</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>O projeto Monalisa, refere-se à percepção de que o olhar da personagem da pintura acompanha o espectador, independentemente do ângulo de observação.
+                            </p>Ao mover o mouse é possível mover os olhos da figura.
+
+                            <img src="Monalisa.jpg" class="img-fluid w-100"
+                                alt="Imagem representativa do projeto de uma biblioteca online">
+                        </div>
+                        <div class="modal-footer">
+                            <a href=https://editor.p5js.org/MariaHeloisaa/sketches/BL4CVV_JY>Ver projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal 3 -->
+            <div class="modal" id="modal3" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Lógica de programação: criando arte interativa com P5.js "Quente frio dinâmico"</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            </p>O projeto "Quente e frio" busca localizar um ponto oculto na tela de localização desconhecida a partir de sua proximidade, ou seja, se está próximo ou distante.</p> 
+        </p>Sendo assim, o objetivo é encontrar o ponto oculto. Para conseguir calcular o valor da distância entre o cursor do mouse e o ponto oculto, utiliz-se o teorema de Pitágoras. Ao executar o código, o ponto fica oculto na tela. Se estiver muito longe dele, o círculo ficará grande, representando a longa distância, mas se estiver perto, consegue encontrá-lo a partir do sensor que calcula a distância entre o cursor e o ponto oculto.</p>
+                            </p>Esse trabalho utiliza números aleatórios, pois o ponto estará oculto na tela.</p>
+                            <img src="Quente e frio.jpg" alt="Projeto 3" class="img-fluid w-100">
+                        </div>
+                        <div class="modal-footer">
+                            <a href=https://editor.p5js.org/MariaHeloisaa/sketches/VlL0znFxY>Ver projeto</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <footer class="container py-5">
+            <h2>Entre em contato</h2>
+            <div>
+                <i class="bi bi-github"></i>
+                <a href="https://github.com/MariaHeloisaoli/Trabalho">GitHub</a>
+            </div>
+            <p class="my-5 text-center">© Copyright 2024. Produzido por Maria Heloisa</p>
+        </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
